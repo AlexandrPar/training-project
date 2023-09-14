@@ -1,0 +1,8 @@
+.welcome-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/src/images/background_main.png);
+    background-position: center;
+    background-size: contain;
+}

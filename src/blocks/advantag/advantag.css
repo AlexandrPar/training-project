@@ -1,0 +1,15 @@
+.advantag {
+   width: 220px;
+   display: grid;
+   justify-items:center;
+   background:
+		linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) 100% 0 no-repeat,
+		linear-gradient(-135deg, transparent 1.5em, #e3c188 0);
+	background-size: 2em 2em, auto;
+    margin: 0 30px 0 0;
+
+}
+
+.advantag:last-child {
+    margin: 0;
+}

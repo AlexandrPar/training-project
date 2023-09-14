@@ -1,0 +1,9 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  font-family: 'Roboto', 'Roboto Black', sans-serif;
+  background-size: cover;
+}

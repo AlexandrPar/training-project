@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="author" content="Паршуков Александр">
+    <title>Тренеровка</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img class="logo" src="<%=require('./images/logo.png')%>" alt="логотип">
+            <p class="header__description">Текстиль для отелей от производителя</p>
+            <button class="button-call">Заказать звонок</button>
+        </header>
+        <main class="content">
+            <ul class="menu">
+                <li class="menu__link"><a href="" class="link">Каталог</a></li>
+                <li class="menu__link"><a href="" class="link">О нас</a></li>
+                <li class="menu__link"><a href="" class="link">Преимущества</a></li>
+                <li class="menu__link"><a href="" class="link">Отзывы</a></li>
+                <li class="menu__link"><a href="" class="link">Доставка и оплата</a></li>
+                <li class="menu__link"><a href="" class="link">Награды и сертификаты</a></li>
+                <li class="menu__link"><a href="" class="link">Контакты</a></li>
+            </ul>
+            <div class="welcome-screen">
+                <h1 class="welcome-screen__title">ТЕКСТИЛЬ ДЛЯ ОТЕЛЕЙ</h1>
+                <h2 class="welcome-screen__subtitle">от производителя</h2>
+                <div class="advantages">
+                    <div class="advantag">
+                        <img class="advantag__image" src="<%=require('./images/schedule.png')%>">
+                        <p class="advantag__content-title">20 лет</p>
+                        <p class="advantag__content">на рынке</p>
+                    </div>
+                    <div class="advantag">
+                        <img class="advantag__image" src="<%=require('./images/textile.png')%>" >
+                        <p class="advantag__content-title">более 1 млн</p>
+                        <p class="advantag__content">ткани в месяц</p>
+                    </div>
+                    <div class="advantag">
+                        <img class="advantag__image"src="<%=require('./images/machine.png')%>" >
+                        <p class="advantag__content-title">более 1,4 млн</p>
+                        <p class="advantag__content">готовых издений</p>
+                    </div>
+                 </div>
+            <button class="button-call welcome-screen__button-call">Сделать заказ</button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
