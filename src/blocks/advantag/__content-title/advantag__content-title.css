@@ -1,4 +1,5 @@
 .advantag__content-title {
-    grid-column: 2;
-    grid-row: 1;
+    font-weight: bold;
+    grid-area: b;
+    margin: 25px 0 5px 0;
 }

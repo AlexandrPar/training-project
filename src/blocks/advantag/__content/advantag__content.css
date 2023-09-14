@@ -1,4 +1,4 @@
 .advantag__content {
-    grid-column: 2;
-    grid-row: 2;
+    grid-area: c;
+    margin: 0 0 25px 0;
 }

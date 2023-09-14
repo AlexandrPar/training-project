@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     background-image: url(/src/images/background_main.png);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }

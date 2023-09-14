@@ -1,11 +1,17 @@
 .advantag {
-   width: 220px;
-   display: grid;
-   justify-items:center;
-   background:
-		linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) 100% 0 no-repeat,
-		linear-gradient(-135deg, transparent 1.5em, #e3c188 0);
-	background-size: 2em 2em, auto;
+    width: 220px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "a b"
+        "a c";
+    background:
+        linear-gradient(to left bottom, transparent 50%, rgba(0, 0, 0, .4) 0) 100% 0 no-repeat,
+        linear-gradient(-135deg, transparent 1.5em, #e3c188 0);
+    background-size: 2em 2em, auto;
     margin: 0 30px 0 0;
 
 }
