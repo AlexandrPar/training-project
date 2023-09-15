@@ -1,0 +1,6 @@
+.catalog__cards {
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+    margin: 70px auto 165px auto;
+}

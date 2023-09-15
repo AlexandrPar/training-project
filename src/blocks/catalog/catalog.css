@@ -1,0 +1,8 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/src/images/background_catalog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

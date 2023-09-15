@@ -17,3 +17,6 @@
 @import url(../blocks/advantag/__image/advantag__image.css);
 @import url(../blocks/advantag/__content-title/advantag__content-title.css);
 @import url(../blocks/advantag/__content/advantag__content.css);
+@import url(../blocks/catalog/catalog.css);
+@import url(../blocks/catalog/__title/catalog__title.css);
+@import url(../blocks/catalog/__cards/catalog__cards.css);
