@@ -1,0 +1,37 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(227, 193, 136, 0.3), rgba(227, 193, 136, 0.3)), url(/src/images/about-us.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-us__title {
+    font-size: 48pt;
+    color: #590c29;
+    margin: 123px 0 0 190px;
+}
+
+.about-us__description {
+    max-width: 1200px;
+    font-size: 21px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 55px 0 0 190px;
+}
+
+.about-us__list {
+   list-style-image: url(/src/images/list.png);
+   margin: 0;
+   padding: 0 0 117px 220px;
+}
+
+.about-us__paragraph {
+    max-width: 1200px;
+    font-size: 21px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: normal;
+}
