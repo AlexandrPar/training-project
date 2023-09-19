@@ -15,7 +15,7 @@
 @import url(../blocks/achievement/achievement.css);
 @import url(../blocks/achievement/__image/achievement__image.css);
 @import url(../blocks/achievement/__content-title/achievement__content-title.css);
-@import url(../blocks/achievement/__content/achievement_content.css);
+@import url(../blocks/achievement/__content/achievement__content.css);
 @import url(../blocks/catalog/catalog.css);
 @import url(../blocks/catalog/__title/catalog__title.css);
 @import url(../blocks/catalog/__cards/catalog__cards.css);
