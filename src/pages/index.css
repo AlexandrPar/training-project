@@ -11,11 +11,11 @@
 @import url(../blocks/welcome-screen/__title/welcome-screen__title.css);
 @import url(../blocks/welcome-screen/__subtitle/welcome-screen__subtitle.css);
 @import url(../blocks/welcome-screen/__button-call/welcome-screen__button-call.css);
-@import url(../blocks/advantages/advantages.css);
-@import url(../blocks/advantag/advantag.css);
-@import url(../blocks/advantag/__image/advantag__image.css);
-@import url(../blocks/advantag/__content-title/advantag__content-title.css);
-@import url(../blocks/advantag/__content/advantag__content.css);
+@import url(../blocks/achievements/achievements.css);
+@import url(../blocks/achievement/achievement.css);
+@import url(../blocks/achievement/__image/achievement__image.css);
+@import url(../blocks/achievement/__content-title/achievement__content-title.css);
+@import url(../blocks/achievement/__content/achievement_content.css);
 @import url(../blocks/catalog/catalog.css);
 @import url(../blocks/catalog/__title/catalog__title.css);
 @import url(../blocks/catalog/__cards/catalog__cards.css);
