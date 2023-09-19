@@ -1,0 +1,45 @@
+.advantages {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/src/images/background_advantages.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.advantages__title {
+    font-size: 48pt;
+    color: #590c29;
+    margin: 123px 0 0 190px;
+}
+
+.advantages__block {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0 251px 190px;
+}
+
+.advantag {
+    display: flex;
+    align-items: center;
+    margin: 52px 0 0 0;
+}
+
+.advantag__image {
+    width: 720px;
+    height: 400px;
+}
+
+.advantag__description {
+    
+}
+
+.advantag__paragraph {
+    background-color: #880000;
+    color: white;
+    text-align: center;
+}
+
+.paragraph__button-call {
+    display: none;
+}
