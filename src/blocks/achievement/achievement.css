@@ -1,4 +1,4 @@
-.advantag {
+.achievement {
     width: 220px;
     height: 100px;
     display: grid;
@@ -16,6 +16,6 @@
 
 }
 
-.advantag:last-child {
+.achievement:last-child {
     margin: 0;
 }
