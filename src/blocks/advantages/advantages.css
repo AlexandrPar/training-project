@@ -28,18 +28,109 @@
 .advantag__image {
     width: 720px;
     height: 400px;
+    background-color: #e8e8e8;
+    padding: 17px;
+    z-index: 1;
 }
 
 .advantag__description {
-    
+    width: 434px;
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #880000;
+    z-index: 2;
+}
+
+.triangular-left {
+    width: 0;
+    height: 0;
+    margin-left: -110px;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid #880000;
+}
+
+.triangular-right {
+    width: 0;
+    height: 0;
+    margin-right: -105px;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid #880000;
 }
 
 .advantag__paragraph {
+    width: 300px;
+    padding: 100px 30px 130px 30px;
+    display: flex;
+    flex-direction: column;
     background-color: #880000;
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 .paragraph__button-call {
     display: none;
+}
+
+.interior-triangular-left {
+    display: none;
+}
+
+.interior-triangular-right {
+    display: none;
+}
+
+.advantag__description:hover {
+
+    .paragraph__button-call {
+        background-color: none;
+        display: block;
+        margin: 20px;
+    }
+
+    ;
+
+    .advantag__paragraph {
+        padding: 115px 35px;
+
+        background-color: rgb(255 255 255 / 0.2);
+    }
+
+    ;
+
+    .triangular-left {
+        margin-left: -65px;
+    }
+
+    .interior-triangular-left {
+        display: block;
+        width: 0;
+        height: 0;
+        margin-left: 0px;
+        border-top: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        border-right: 35px solid rgb(255 255 255 / 0.2);
+    }
+
+    ;
+
+    .triangular-right {
+        margin-left: -10px;
+    };
+
+
+    .interior-triangular-right {
+        width: 0;
+        height: 0;
+        margin-right: 35px;
+        border-top: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        border-left: 35px solid rgb(255 255 255 / 0.2);
+    }
+
+    ;
 }
